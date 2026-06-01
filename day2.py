@@ -61,11 +61,11 @@ is_winning = True
 
 # project 2: Tip Calculator
 
-print("Welcome to the tip calculator!")
-total_bill = float(input("What was the total bill? $"))
-tip = int(input("How much tip would you like to give? 10, 12 or 15?"))
-peoples= int(input("How many peope to split the bill? "))
-totalbill_after_tip= (total_bill * tip /100)
-per_person_bill = float((total_bill + totalbill_after_tip) / peoples)
-roundbill_two_places = round(per_person_bill, 2)
-print(f"Each person should pay: {roundbill_two_places}")
+# print("Welcome to the tip calculator!")
+# total_bill = float(input("What was the total bill? $"))
+# tip = int(input("How much tip would you like to give? 10, 12 or 15?"))
+# peoples= int(input("How many peope to split the bill? "))
+# totalbill_after_tip= (total_bill * tip /100)
+# per_person_bill = float((total_bill + totalbill_after_tip) / peoples)
+# roundbill_two_places = round(per_person_bill, 2)
+# print(f"Each person should pay: {roundbill_two_places}")
